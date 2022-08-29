@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+}
+form{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+ h1{
+    font-size: 15px;
+    text-align: center;
+    margin: 10px 10px 10px;
+    height: 20px 10px;
+ }
+
+ .email{
+    text-align: center;
+    margin: 10px 10px 10px;
+    height: 20px 10px;
+ }
+
+ .senha{
+    text-align: center;
+    margin: 10px 10px 10px;
+    height: 20px 10px;
+ }
+ 
+.container{
+    position: relative;
+    margin: 100px;
+    height: 50%;
+    justify-content: center;
+    background-color: rgb(187, 182, 182);
+    padding: 3%;
+    text-align: center;
+    border-radius: 5%;
+
+}
+a{
+    background: fixed;
+    padding: 10px;
+    bottom: 10px;
+    height: 0 10px;
+}
+
+
+.email > label, .senha > label{
+    font-size: 15px;
+}
+ input{
+    font-family: 15px;
+ }

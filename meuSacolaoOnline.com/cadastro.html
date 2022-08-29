@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeuSacolão.com</title>
+    <link rel="icon" href="faviconpng.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">  
+    <link rel="stylesheet" href="CSS/styleCad.css">
+</head>
+<body>
+
+    <header>
+        <div>
+        <h3>MeuSacolãoOnline.com</h3>
+       </div>
+    </header>
+
+    
+    <div class="navbar"></div>
+        <div class="center">
+            <nav>
+
+                <ul>
+                    <li><a href="paginainicial.html">Início</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                 </ul>
+            </nav>
+    </div>
+
+    <section class="container_1">
+        <h2>Identificação</h2>
+        <h1 id="titulo-form">Quero criar uma conta</h1>  
+         <form id="form-cadastro">
+            <div class="container">
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="name" placeholder="Digite seu nome">
+            </div>
+                <div class="container"></div>
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" id="sobrenome" name="sobrenome" placeholder="Digite seu sobrenome">
+            </div>
+            <div class="container">
+                <label for="pais">País</label>
+                <select id="pais" name="pais">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="brasil">Brasil</option>
+            </div>
+            </select>
+   
+            <button type="adicionar">
+                <a type="adicionar" onclick="enviar()" href=paginaInicial.html> Adicionar</a>
+            </button>
+
+        </form>
+    </section>
+    
+    <script>
+        function enviar(){
+        alert('Cadastro efetuado com succeso.')
+
+        }
+    </script>
+<footer>
+    <h5>2022 | Todos os direitos reservados a Grupy Sistemas</h5>
+</footer>
+
+</body>
+</html>
